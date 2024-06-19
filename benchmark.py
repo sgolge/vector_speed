@@ -107,5 +107,6 @@ if __name__ == '__main__':
     np.vectorize - Time it took (sec):  21.980846599908546
     pd.cut - Time it took (sec):  2.104148200014606
     Numba Parallel - Time it took (sec):  0.10985680005978793
+    Numba Non-Parallel - Time it took (sec):  0.3359113000333309
     '''
-Numba Non-Parallel - Time it took (sec):  0.3359113000333309
+
