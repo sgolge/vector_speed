@@ -100,3 +100,12 @@ def run_strA(df_test=''):
 if __name__ == '__main__':
     df_test = pd.DataFrame({'variableB': np.random.randint(0, 1000, 80000000)})
     run_strA(df_test=df_test)
+    '''
+    Pure Python - Time it took (sec):  16.50152970000636
+    npWhere-Time it took (sec):  6.42317819991149
+    npSelect- Time it took (sec):  10.901491700089537
+    np.vectorize - Time it took (sec):  21.980846599908546
+    pd.cut - Time it took (sec):  2.104148200014606
+    Numba Parallel - Time it took (sec):  0.10985680005978793
+    '''
+Numba Non-Parallel - Time it took (sec):  0.3359113000333309
